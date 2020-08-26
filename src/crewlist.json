@@ -1,0 +1,119 @@
+[
+  {
+    "id": 1,
+    "name": "Carol Freeman",
+    "gender": "Female",
+    "species": "Human",
+    "affiliation": "Federation, Starfleet",
+    "rank": "Captain",
+    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/7/7c/Carol_Freeman.jpg/revision/latest?cb=20200807150652&path-prefix=en",
+    "occupation": "Commanding Officer",
+    "vessel": "USS Cerritos",
+    "maritalStatus": "Married",
+    "family": {
+      "spouses": "A Starfleet admiral",
+      "children": "Beckett Mariner"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Jack Ransom",
+    "gender": "Male",
+    "species": "Human",
+    "affiliation": "Federation, Starfleet",
+    "rank": "Commander",
+    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/0/03/Jack_Ransom.png/revision/latest?cb=20200811121233&path-prefix=en",
+    "occupation": "First Officer",
+    "vessel": "USS Cerritos",
+    "maritalStatus": "Single"
+  },
+  {
+    "id": 3,
+    "name": "Andy Billups",
+    "gender": "Male",
+    "species": "Human",
+    "affiliation": "Federation, Starfleet",
+    "rank": "Lieutenant Commander",
+    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/0/0e/Andy_Billups.png/revision/latest?cb=20200806152105&path-prefix=en",
+    "occupation": "Chief Engineering Officer",
+    "vessel": "USS Cerritos",
+    "maritalStatus": "Single"
+  },
+  {
+    "id": 4,
+    "name": "Dr. T'Ana",
+    "gender": "Female",
+    "species": "Caitian",
+    "affiliation": "Federation, Starfleet",
+    "rank": "Commander",
+    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/6/6d/T%27Ana.png/revision/latest?cb=20200820100005&path-prefix=en",
+    "occupation": "Chief Medical Officer",
+    "vessel": "USS Cerritos",
+    "maritalStatus": "Single"
+  },
+  {
+    "id": 5,
+    "name": "Lt. Shaxs",
+    "gender": "Male",
+    "species": "Bajoran",
+    "affiliation": "Federation, Starfleet",
+    "rank": "Lieutenant",
+    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/3/34/Shaxs.png/revision/latest?cb=20200813123204&path-prefix=en",
+    "occupation": "Security Officer",
+    "vessel": "USS Cerritos",
+    "maritalStatus": "Single"
+  },
+  {
+    "id": 6,
+    "name": "Brad Boimler",
+    "gender": "Male",
+    "species": "Human",
+    "affiliation": "Federation, Starfleet",
+    "rank": "Ensign",
+    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/f/f0/Brad_Boimler_giving_Captain%27s_Log.png/revision/latest/scale-to-width-down/700?cb=20200806120617&path-prefix=en",
+    "occupation": "Command Division Junior Officer",
+    "vessel": "USS Cerritos",
+    "maritalStatus": "Single"
+  },
+  {
+    "id": 7,
+    "name": "Beckett Mariner",
+    "gender": "Female",
+    "species": "Human",
+    "affiliation": "Federation, Starfleet",
+    "rank": "Ensign",
+    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/8/8e/Beckett_Mariner_counting_regulations.png/revision/latest/scale-to-width-down/700?cb=20200806121627&path-prefix=en",
+    "occupation": "Command Division Junior Officer",
+    "vessel": "USS Cerritos",
+    "maritalStatus": "Single",
+    "family": {
+      "mother": "Carol Freemen",
+      "father": "A Starfleet admiral"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Sam Rutherford",
+    "gender": "Male",
+    "species": "Human (cybernetically augmented)",
+    "affiliation": "Federation, Starfleet",
+    "rank": "Ensign",
+    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/a/ad/Sam_Rutherford.png/revision/latest/scale-to-width-down/700?cb=20200806121251&path-prefix=en",
+    "occupation": "Operations Division Junior Officer",
+    "vessel": "USS Cerritos",
+    "maritalStatus": "Single"
+  },  
+  {
+    "id": 9,
+    "name": "D'Vana Tendi",
+    "gender": "Female",
+    "species": "Orion",
+    "affiliation": "Federation, Starfleet",
+    "rank": "Ensign",
+    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/0/09/D%27Vana_Tendi.png/revision/latest/scale-to-width-down/700?cb=20200813124122&path-prefix=en",
+    "occupation": "Sciences Division Junior Officer",
+    "vessel": "USS Cerritos",
+    "maritalStatus": "Single"
+  }
+  
+]
