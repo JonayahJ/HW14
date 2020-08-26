@@ -6,7 +6,7 @@
     "species": "Human",
     "affiliation": "Federation, Starfleet",
     "rank": "Captain",
-    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/7/7c/Carol_Freeman.jpg/revision/latest?cb=20200807150652&path-prefix=en",
+    "image": "../assets/CaptFreeman.jpg",
     "occupation": "Commanding Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Married",
@@ -22,7 +22,7 @@
     "species": "Human",
     "affiliation": "Federation, Starfleet",
     "rank": "Commander",
-    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/0/03/Jack_Ransom.png/revision/latest?cb=20200811121233&path-prefix=en",
+    "image": "../assets/Ransom.jpg",
     "occupation": "First Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single"
@@ -34,7 +34,7 @@
     "species": "Human",
     "affiliation": "Federation, Starfleet",
     "rank": "Lieutenant Commander",
-    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/0/0e/Andy_Billups.png/revision/latest?cb=20200806152105&path-prefix=en",
+    "image": "../assets/Billups.jpg",
     "occupation": "Chief Engineering Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single"
@@ -46,7 +46,7 @@
     "species": "Caitian",
     "affiliation": "Federation, Starfleet",
     "rank": "Commander",
-    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/6/6d/T%27Ana.png/revision/latest?cb=20200820100005&path-prefix=en",
+    "image": "../assets/TAna.jpg",
     "occupation": "Chief Medical Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single"
@@ -58,7 +58,7 @@
     "species": "Bajoran",
     "affiliation": "Federation, Starfleet",
     "rank": "Lieutenant",
-    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/3/34/Shaxs.png/revision/latest?cb=20200813123204&path-prefix=en",
+    "image": "../assets/Shaxs.jpg",
     "occupation": "Security Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single"
@@ -70,7 +70,7 @@
     "species": "Human",
     "affiliation": "Federation, Starfleet",
     "rank": "Ensign",
-    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/f/f0/Brad_Boimler_giving_Captain%27s_Log.png/revision/latest/scale-to-width-down/700?cb=20200806120617&path-prefix=en",
+    "image": "../assets/Boimler.jpg",
     "occupation": "Command Division Junior Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single"
@@ -82,7 +82,7 @@
     "species": "Human",
     "affiliation": "Federation, Starfleet",
     "rank": "Ensign",
-    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/8/8e/Beckett_Mariner_counting_regulations.png/revision/latest/scale-to-width-down/700?cb=20200806121627&path-prefix=en",
+    "image": "../assets/Mariner.jpg",
     "occupation": "Command Division Junior Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single",
@@ -98,7 +98,7 @@
     "species": "Human (cybernetically augmented)",
     "affiliation": "Federation, Starfleet",
     "rank": "Ensign",
-    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/a/ad/Sam_Rutherford.png/revision/latest/scale-to-width-down/700?cb=20200806121251&path-prefix=en",
+    "image": "../assets/Rutherford.jpg",
     "occupation": "Operations Division Junior Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single"
@@ -110,7 +110,7 @@
     "species": "Orion",
     "affiliation": "Federation, Starfleet",
     "rank": "Ensign",
-    "image": "https://vignette.wikia.nocookie.net/memoryalpha/images/0/09/D%27Vana_Tendi.png/revision/latest/scale-to-width-down/700?cb=20200813124122&path-prefix=en",
+    "image": "../assets/Tendi.jpg",
     "occupation": "Sciences Division Junior Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single"
