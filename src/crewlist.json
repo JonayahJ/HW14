@@ -6,7 +6,7 @@
     "species": "Human",
     "affiliation": "Federation, Starfleet",
     "rank": "Captain",
-    "image": "../assets/CaptFreeman.jpg",
+    "image": "../assets/CaptFreeman.png",
     "occupation": "Commanding Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Married",
@@ -22,7 +22,7 @@
     "species": "Human",
     "affiliation": "Federation, Starfleet",
     "rank": "Commander",
-    "image": "../assets/Ransom.jpg",
+    "image": "../assets/Ransom.png",
     "occupation": "First Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single"
@@ -34,7 +34,7 @@
     "species": "Human",
     "affiliation": "Federation, Starfleet",
     "rank": "Lieutenant Commander",
-    "image": "../assets/Billups.jpg",
+    "image": "../assets/Billups.png",
     "occupation": "Chief Engineering Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single"
@@ -46,7 +46,7 @@
     "species": "Caitian",
     "affiliation": "Federation, Starfleet",
     "rank": "Commander",
-    "image": "../assets/TAna.jpg",
+    "image": "../assets/TAna.png",
     "occupation": "Chief Medical Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single"
@@ -58,7 +58,7 @@
     "species": "Bajoran",
     "affiliation": "Federation, Starfleet",
     "rank": "Lieutenant",
-    "image": "../assets/Shaxs.jpg",
+    "image": "../assets/Shaxs.png",
     "occupation": "Security Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single"
@@ -70,7 +70,7 @@
     "species": "Human",
     "affiliation": "Federation, Starfleet",
     "rank": "Ensign",
-    "image": "../assets/Boimler.jpg",
+    "image": "../assets/Boimler.png",
     "occupation": "Command Division Junior Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single"
@@ -82,7 +82,7 @@
     "species": "Human",
     "affiliation": "Federation, Starfleet",
     "rank": "Ensign",
-    "image": "../assets/Mariner.jpg",
+    "image": "../assets/Mariner.png",
     "occupation": "Command Division Junior Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single",
@@ -98,7 +98,7 @@
     "species": "Human (cybernetically augmented)",
     "affiliation": "Federation, Starfleet",
     "rank": "Ensign",
-    "image": "../assets/Rutherford.jpg",
+    "image": "../assets/Rutherford.png",
     "occupation": "Operations Division Junior Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single"
@@ -110,7 +110,7 @@
     "species": "Orion",
     "affiliation": "Federation, Starfleet",
     "rank": "Ensign",
-    "image": "../assets/Tendi.jpg",
+    "image": "../assets/Tendi.png",
     "occupation": "Sciences Division Junior Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single"

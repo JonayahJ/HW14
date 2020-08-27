@@ -1,14 +1,37 @@
 import React from "react";
-import CrewRow from "./components/CrewTable";
+import RenderCrew from "./components/CrewTable";
 import Wrapper from "./components/Wrapper";
 import officers from "./crewlist.json";
 import "./App.css";
+import * as ReactBootstrap from "react-bootstrap";
 
 function App() {
   return (
     <Wrapper>
+      {/* "HeroImage" */}
+      <section className="bgimage">
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
+          </div>
+        </div>
+      </section>
+      {/* Title */}
       <h1 className="title">Crew Manifest</h1>
-      <CrewRow
+      {/* Crew Table */}
+      {/* <table className="table table-hover table-dark">
+        <thead>
+          <tr>
+            <th scope="col">Headshot</th>
+            <th scope="col">Rank</th>
+            <th scope="col">Name</th>
+            <th scope="col">Species</th>
+            <th scope="col">Occupation</th>
+          </tr>
+        </thead>
+        </table>  
+      {/* Crew Rows */}
+      {/* <CrewRow
         name={officers[0].name}
         image={officers[0].image}
         species={officers[0].species}
@@ -79,7 +102,22 @@ function App() {
         affiliation={officers[8].affiliation}
         rank={officers[8].rank}
         occupation={officers[8].occupation}
-      />
+      /> */}
+
+      <ReactBootstrap.Table striped bordered hover variant="dark">
+        <thead>
+          <tr>
+            <th>Headshot</th>
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Species</th>
+            <th>Occupation</th>
+          </tr>
+        </thead>
+        <tbody>
+          {officers.map(RenderCrew)}
+        </tbody>
+      </ReactBootstrap.Table>
     </Wrapper>
   );
 }
