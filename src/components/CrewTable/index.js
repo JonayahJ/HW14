@@ -7,6 +7,7 @@ const RenderCrew = (props, index) => {
       <td>{props.rank}</td>
       <td>{props.name}</td>
       <td>{props.species}</td>
+      <td>{props.gender}</td>
       <td>{props.occupation}</td>
     </tr>
   )
