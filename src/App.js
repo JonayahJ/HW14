@@ -7,7 +7,29 @@ import * as ReactBootstrap from "react-bootstrap";
 import "../src/fonts/Stardate81316-aolE.ttf"
 import "./App.css";
 
-function App() {
+class App extends React.Component{
+  state = { officers }
+
+  filterName = () => {
+    this.setState({
+      officers: this.state.officers.sort((a, b) => (a.name > b.name) ? 1 : -1)
+    })
+  }
+
+  filterRank = () => {
+    this.setState({
+      officers: this.state.officers.sort((a, b) => (a.rank > b.rank) ? 1 : -1)
+    })
+  }
+
+  findName=()=>{
+    // const officers = this.state.officers.filter((officer) => officer.name !== name);
+    // this.setState({
+    //   officers,
+    // });
+  }
+
+  render() {
   return (
     <Wrapper>
       {/* "Hero" Image */}
@@ -23,15 +45,24 @@ function App() {
       <h1 className="title">USS Cerritos Crew Manifest</h1>
 
       {/* Search Form */}
-      <Search />
+      <Search 
+      findName={this.findName}/>
+
+      
 
       {/* Crew Table */}
       <ReactBootstrap.Table striped bordered hover variant="dark">
         <thead>
           <tr>
             <th>Headshot</th>
-            <th>Rank</th>
-            <th>Name</th>
+            <th><button onClick={() => {
+                  this.filterRank();
+                }}>Rank</button></th>
+            <th>
+              <button onClick={() => {
+                  this.filterName();
+                }}>Name</button>
+          </th>
             <th>Species</th>
             <th>Gender</th>
             <th>Occupation</th>
@@ -39,11 +70,14 @@ function App() {
           </tr>
         </thead>
         <tbody>
-          {officers.map(RenderCrew)}
+          {this.state.officers.map(RenderCrew)}
         </tbody>
       </ReactBootstrap.Table>
     </Wrapper>
   );
+  }
+
+
 }
 
 export default App;
