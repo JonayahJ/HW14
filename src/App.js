@@ -1,7 +1,7 @@
 import React from "react";
 import RenderCrew from "./components/CrewTable";
 import Wrapper from "./components/Wrapper";
-// import Search from "./components/Search"
+import Search from "./components/Search/Search"
 import officers from "./crewlist.json";
 import * as ReactBootstrap from "react-bootstrap";
 import "../src/fonts/Stardate81316-aolE.ttf"
@@ -18,13 +18,13 @@ function App() {
           </div>
         </div>
       </section>
+
       {/* Title */}
       <h1 className="title">USS Cerritos Crew Manifest</h1>
+
       {/* Search Form */}
-      <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-        {/* <i class="fa fa-search"></i> */}
-        <input className="form-control search" type="search"></input>
-      </div>
+      <Search />
+
       {/* Crew Table */}
       <ReactBootstrap.Table striped bordered hover variant="dark">
         <thead>

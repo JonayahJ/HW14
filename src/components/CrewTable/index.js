@@ -9,7 +9,7 @@ const RenderCrew = (props, index) => {
       <td>{props.species}</td>
       <td>{props.gender}</td>
       <td>{props.occupation}</td>
-      <td><a href={props.details} target="_blank" rel="noopener noreferrer" role="button" class="btn btn-warning">Details</a></td>
+      <td><a href={props.details} target="_blank" rel="noopener noreferrer" role="button" className="btn btn-warning">Details</a></td>
     </tr>
   )
 }
