@@ -10,10 +10,11 @@
     "occupation": "Commanding Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Married",
-    "family": {
-      "spouses": "A Starfleet admiral",
-      "children": "Beckett Mariner"
-    }
+    "family": [
+      "Spouse(s): A Starfleet admiral",
+      "children: Beckett Mariner"
+    ],
+    "details": "https://memory-alpha.fandom.com/wiki/Carol_Freeman"
   },
   {
     "id": 2,
@@ -25,7 +26,8 @@
     "image": "../assets/Ransom.png",
     "occupation": "First Officer",
     "vessel": "USS Cerritos",
-    "maritalStatus": "Single"
+    "maritalStatus": "Single",
+    "details": "https://memory-alpha.fandom.com/wiki/Jack_Ransom"
   },
   {
     "id": 3,
@@ -37,7 +39,8 @@
     "image": "../assets/Billups.png",
     "occupation": "Chief Engineering Officer",
     "vessel": "USS Cerritos",
-    "maritalStatus": "Single"
+    "maritalStatus": "Single",
+    "details": "https://memory-alpha.fandom.com/wiki/Andy_Billups"
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
     "image": "../assets/TAna.png",
     "occupation": "Chief Medical Officer",
     "vessel": "USS Cerritos",
-    "maritalStatus": "Single"
+    "maritalStatus": "Single",
+    "details": "https://memory-alpha.fandom.com/wiki/T%27Ana"
   },
   {
     "id": 5,
@@ -61,7 +65,8 @@
     "image": "../assets/Shaxs.png",
     "occupation": "Security Officer",
     "vessel": "USS Cerritos",
-    "maritalStatus": "Single"
+    "maritalStatus": "Single",
+    "details": "https://memory-alpha.fandom.com/wiki/Shaxs"
   },
   {
     "id": 6,
@@ -73,7 +78,8 @@
     "image": "../assets/Boimler.png",
     "occupation": "Command Division Junior Officer",
     "vessel": "USS Cerritos",
-    "maritalStatus": "Single"
+    "maritalStatus": "Single",
+    "details": "https://memory-alpha.fandom.com/wiki/Brad_Boimler"
   },
   {
     "id": 7,
@@ -86,10 +92,11 @@
     "occupation": "Command Division Junior Officer",
     "vessel": "USS Cerritos",
     "maritalStatus": "Single",
-    "family": {
-      "mother": "Carol Freemen",
-      "father": "A Starfleet admiral"
-    }
+    "family":[
+      "Mother: Carol Freemen",
+      "Father: A Starfleet admiral"
+    ],
+    "details": "https://memory-alpha.fandom.com/wiki/Beckett_Mariner"
   },
   {
     "id": 8,
@@ -101,7 +108,8 @@
     "image": "../assets/Rutherford.png",
     "occupation": "Operations Division Junior Officer",
     "vessel": "USS Cerritos",
-    "maritalStatus": "Single"
+    "maritalStatus": "Single",
+    "details": "https://memory-alpha.fandom.com/wiki/Sam_Rutherford"
   },  
   {
     "id": 9,
@@ -113,7 +121,8 @@
     "image": "../assets/Tendi.png",
     "occupation": "Sciences Division Junior Officer",
     "vessel": "USS Cerritos",
-    "maritalStatus": "Single"
+    "maritalStatus": "Single",
+    "details": "https://memory-alpha.fandom.com/wiki/D%27Vana_Tendi"
   }
   
 ]

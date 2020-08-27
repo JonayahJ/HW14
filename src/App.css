@@ -17,7 +17,7 @@
   width:100%;
   height:600px;
   /* Lower Decks Header Image URL */
-  background: url('https://images2.imgbox.com/4c/e7/zIbvYp5m_o.png');
+  background: url('https://www.whats-on-netflix.com/wp-content/uploads/2020/08/star-trek-lower-decks-on-netflix.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
@@ -25,4 +25,9 @@
 .bgimage h5 {
   color:white;
   text-shadow:2px 2px #333;
+}
+
+.search {
+  width: 50%;
+  margin-bottom: 25px;
 }
