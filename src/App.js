@@ -38,7 +38,7 @@ class App extends React.Component{
     })
   }
 
-  filterOccupation = () => {
+  filterOccu = () => {
     this.setState({
       officers: this.state.officers.sort((a, b) => (a.occupation > b.occupation) ? 1 : -1)
     })
@@ -75,11 +75,11 @@ class App extends React.Component{
         <thead>
           <tr>
             <th>Headshot</th>
-            <th> Rank <button className="btn btn-light" onClick={() => {this.filterRank();}}><FontAwesomeIcon icon="filter" /></button></th>
-            <th> Name <button className="btn btn-light" onClick={() => {this.filterName();}}><FontAwesomeIcon icon="filter" /></button></th>
-            <th> Species <button className="btn btn-light" onClick={() => {this.filterSpecies();}}><FontAwesomeIcon icon="filter" /></button></th>
-            <th> Gender <button className="btn btn-light" onClick={() => {this.filterGender();}}><FontAwesomeIcon icon="filter" /></button></th>
-            <th> Occupation <button className="btn btn-light" onClick={() => {this.filterOccupation();}}><FontAwesomeIcon icon="filter" /></button></th>
+            <th> Rank <FontAwesomeIcon icon="filter" onClick={() => {this.filterRank();}}/></th>
+            <th> Name <FontAwesomeIcon icon="filter" onClick={() => {this.filterName();}}/></th>
+            <th> Species <FontAwesomeIcon icon="filter" onClick={() => {this.filterSpecies();}}/></th>
+            <th> Gender <FontAwesomeIcon icon="filter" onClick={() => {this.filterGender();}}/></th>
+            <th> Occupation <FontAwesomeIcon icon="filter" onClick={() => {this.filterOccu();}}/></th>
             <th>Wiki Details</th>
           </tr>
         </thead>
