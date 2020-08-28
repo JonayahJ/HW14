@@ -49,6 +49,21 @@ class App extends React.Component{
     // this.setState({
     //   officers,
     // });
+
+    // let filteredOfficers = this.props.officers.filter(
+    //   (officer) => {
+    //     return officer.name.indexOf(this.state.search) !== -1;
+    //   }
+    // );
+    // return (
+    //   <div>
+    //     <ul>
+    //       {filteredOfficers.map((officer)=> {
+    //         return <officer officer={officer} key={officer.id} />
+    //       })}
+    //     </ul>
+    //   </div>
+    // ) 
   }
 
   render() {
@@ -56,7 +71,7 @@ class App extends React.Component{
     <Wrapper>
       {/* "Hero" Image */}
       <section className="bgimage">
-        <div className="container-fluid">
+        <div className="cover">
           <div className="row">
             <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
           </div>
@@ -75,11 +90,11 @@ class App extends React.Component{
         <thead>
           <tr>
             <th>Headshot</th>
-            <th> Rank <FontAwesomeIcon icon="filter" onClick={() => {this.filterRank();}}/></th>
-            <th> Name <FontAwesomeIcon icon="filter" onClick={() => {this.filterName();}}/></th>
-            <th> Species <FontAwesomeIcon icon="filter" onClick={() => {this.filterSpecies();}}/></th>
-            <th> Gender <FontAwesomeIcon icon="filter" onClick={() => {this.filterGender();}}/></th>
-            <th> Occupation <FontAwesomeIcon icon="filter" onClick={() => {this.filterOccu();}}/></th>
+            <th> Rank &nbsp;<FontAwesomeIcon icon="sort-alpha-down" onClick={() => {this.filterRank();}}/></th>
+            <th> Name &nbsp;<FontAwesomeIcon icon="sort-alpha-down" onClick={() => {this.filterName();}}/></th>
+            <th> Species &nbsp;<FontAwesomeIcon icon="sort-alpha-down" onClick={() => {this.filterSpecies();}}/></th>
+            <th> Gender &nbsp;<FontAwesomeIcon icon="sort-alpha-down" onClick={() => {this.filterGender();}}/></th>
+            <th> Occupation &nbsp;<FontAwesomeIcon icon="sort-alpha-down" onClick={() => {this.filterOccu();}}/></th>
             <th>Wiki Details</th>
           </tr>
         </thead>

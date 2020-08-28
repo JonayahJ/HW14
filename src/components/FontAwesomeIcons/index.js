@@ -1,4 +1,4 @@
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faSearch, faFilter } from '@fortawesome/free-solid-svg-icons'
+import { faSearch, faArrowDown, faSortAlphaDown, } from '@fortawesome/free-solid-svg-icons'
 
-library.add(faSearch, faFilter)
+library.add(faSearch, faArrowDown, faSortAlphaDown);

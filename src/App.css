@@ -1,3 +1,10 @@
+/* 
+  Star Trek Uniform Colors:
+    Blue: #4a508a
+    Red: #c44040
+    Yellow: #d89000
+*/
+
 @font-face {
   font-family: 'Stardate';
   src: url(./fonts/Stardate81316-aolE.ttf);
@@ -7,24 +14,20 @@
   width: 100%;
   font-family: 'Stardate';
   font-size: 4rem;
-  color: #4A508A;
+  color: #c44040;
   text-align: center;
   margin-top: 25px;
   margin-bottom: 25px;
 }
 
 .bgimage {
-  width:100%;
-  height:600px;
+  width: 100%;
+  height: 450px;
   /* Lower Decks Header Image URL */
-  background: url('https://www.whats-on-netflix.com/wp-content/uploads/2020/08/star-trek-lower-decks-on-netflix.jpg');
+  background: url('https://wwwimage-secure.cbsstatic.com/base/files/blog/57a457dab1e2ffb2_star-trek-lower-decks-header.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size:cover;
-}
-.bgimage h5 {
-  color:white;
-  text-shadow:2px 2px #333;
 }
 
 .search {
