@@ -14,7 +14,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 class App extends Component{
   state = { 
     officers,
-    // searchName: ""
+    searchName: ""
   }
 
   filterName = () => {
@@ -47,14 +47,36 @@ class App extends Component{
     })
   }
 
-  // editSearchName = (e) => {
-  //   console.log(e.target, 'IS THE EVENT')
-  //   this.setState({searchName: e.target.value})
-  // }
-
   findName = () => {
-    return this.state.officers.filter(name => name.toLowerCase().includes(this.state.searchName.toLowerCase()))
+    // console.log(this.state.officers)
+    // create filtered list, set filtered list to officers
+    let filteredList = { officers: officers }
+    return this.state.officers.filter(officer => officer.name.toLowerCase().includes(this.state.searchName.toLowerCase()))
   }
+
+  handleInputChange = event => {
+    // Getting the value and name of the input which triggered the change
+    const { value } = event.target;
+
+    // Updating the input's state
+    this.setState({
+      searchName: value
+    });
+
+    //find officer by name
+    this.findName()
+  };
+
+  handleFormSubmit = event => {
+    // Preventing the default behavior of the form submit
+    event.preventDefault();
+    console.log("Is this working?")
+    this.setState({
+      searchName: ""
+      });
+  };
+
+  
 
   render() {
     console.log(this.state, 'is the state')
@@ -74,7 +96,10 @@ class App extends Component{
       <h1 className="title">USS Cerritos Crew Manifest</h1>
 
       {/* Search Form */}
-      <Search />
+      <Search 
+        handleInputChange={this.handleInputChange} 
+        handleFormSubmit={this.handleFormSubmit}
+      />
 
       {/* Crew Table */}
       <ReactBootstrap.Table striped bordered hover variant="dark">
@@ -91,6 +116,7 @@ class App extends Component{
         </thead>
         <tbody>
           {this.state.officers.map(RenderCrew)}
+          {/* map through the filtered list instead of all officers */}
         </tbody>
       </ReactBootstrap.Table>
     </Wrapper>
