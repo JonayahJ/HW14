@@ -12,7 +12,10 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 
 
 class App extends Component{
-  state = { officers }
+  state = { 
+    officers,
+    searchName: ""
+  }
 
   filterName = () => {
     this.setState({
@@ -44,7 +47,13 @@ class App extends Component{
     })
   }
 
-  findName=()=>{}
+  editSearchName = (e) => {
+    this.setState({searchName: e.target.value})
+  }
+
+  findName = () => {
+    return this.state.officers.filter(name => name.toLowerCase().includes(this.state.searchName.toLowerCase()))
+  }
 
   render() {
   return (

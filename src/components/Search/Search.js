@@ -1,12 +1,10 @@
 import React, { Component } from "react";
-// import officers from "../../crewlist.json"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import App from "../../App"
 
 class Search extends Component {
 
-    render(){
-        
-    
+    render(){    
         return (
             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 form-group input-group" style={{marginBottom: 40}}>
                 {/* Search icon */}
@@ -19,8 +17,9 @@ class Search extends Component {
                 {/* Search input */}
                 <input className="form-control search" 
                     type="text" 
+                    value={this.state.searchName}
                     placeholder="Search officers"
-                    // onChange={ e => setSearch(e.target.value) }
+                    onChange={ this.editSearchName }
                 ></input>
                 
                 {/* Search button */}
