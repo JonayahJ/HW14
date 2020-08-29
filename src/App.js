@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import "./components/FontAwesomeIcons/index"
 import RenderCrew from "./components/CrewTable";
 import Wrapper from "./components/Wrapper";
@@ -11,7 +11,7 @@ import "./App.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 
 
-class App extends React.Component{
+class App extends Component{
   state = { officers }
 
   filterName = () => {
@@ -44,27 +44,7 @@ class App extends React.Component{
     })
   }
 
-  findName=()=>{
-    // const officers = this.state.officers.filter((officer) => officer.name !== name);
-    // this.setState({
-    //   officers,
-    // });
-
-    // let filteredOfficers = this.props.officers.filter(
-    //   (officer) => {
-    //     return officer.name.indexOf(this.state.search) !== -1;
-    //   }
-    // );
-    // return (
-    //   <div>
-    //     <ul>
-    //       {filteredOfficers.map((officer)=> {
-    //         return <officer officer={officer} key={officer.id} />
-    //       })}
-    //     </ul>
-    //   </div>
-    // ) 
-  }
+  findName=()=>{}
 
   render() {
   return (
@@ -82,8 +62,7 @@ class App extends React.Component{
       <h1 className="title">USS Cerritos Crew Manifest</h1>
 
       {/* Search Form */}
-      <Search 
-      findName={this.findName}/>
+      <Search />
 
       {/* Crew Table */}
       <ReactBootstrap.Table striped bordered hover variant="dark">
