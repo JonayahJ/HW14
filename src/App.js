@@ -14,7 +14,8 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 class App extends Component{
   state = { 
     officers,
-    searchName: ""
+    searchName: "",
+    filteredList: []
   }
 
   filterName = () => {
@@ -70,16 +71,20 @@ class App extends Component{
   handleFormSubmit = event => {
     // Preventing the default behavior of the form submit
     event.preventDefault();
-    console.log("Is this working?")
+    
+    // console.log("Is this working?")
     this.setState({
       searchName: ""
       });
+
+    //find officer by name
+    this.findName()
   };
 
   
 
   render() {
-    console.log(this.state, 'is the state')
+    // console.log(this.state, 'is the state')
 
   return (
     <Wrapper>
