@@ -15,17 +15,17 @@ class Search extends Component {
                 {/* Search input */}
                 <input className="form-control search" 
                     type="text" 
-                    // value={this.searchName}
+                    value={this.searchName}
                     placeholder="Search officers by name"
                     onChange={this.props.handleInputChange}
                 ></input>
                 
                 {/* Search button */}
-                <div className="input-group-append">
+                {/* <div className="input-group-append">
                     <button className="btn btn-secondary" onClick={this.props.handleFormSubmit}>
                         Search
                     </button>
-                </div> 
+                </div>  */}
             </div>
         )
     }

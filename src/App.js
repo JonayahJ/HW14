@@ -13,6 +13,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 
 class App extends Component{
   state = { 
+    tempOff:officers,
     officers,
     searchName: "",
     filteredList: []
@@ -49,10 +50,19 @@ class App extends Component{
   }
 
   findName = () => {
+    console.log("sorting")
+    console.log(this.state.searchName.length)
+   
     // console.log(this.state.officers)
     // create filtered list, set filtered list to officers
-    let filteredList = { officers: officers }
-    return this.state.officers.filter(officer => officer.name.toLowerCase().includes(this.state.searchName.toLowerCase()))
+    //let filteredList = { officers: officers }
+   
+    this.setState({officers:this.state.officers.filter(officer => officer.name.toLowerCase().includes(this.state.searchName.toLowerCase()))})
+    // return this.state.officers.filter(officer => officer.name.toLowerCase().includes(this.state.searchName.toLowerCase()))
+    if(this.state.officers.length<1){
+      this.setState({officers:this.state.tempOff});
+    }
+   
   }
 
   handleInputChange = event => {
@@ -61,11 +71,13 @@ class App extends Component{
 
     // Updating the input's state
     this.setState({
-      searchName: value
+      searchName: value.trim()
     });
+    console.log("setting state"+ this.state.searchName)
 
-    //find officer by name
     this.findName()
+   
+
   };
 
   handleFormSubmit = event => {
@@ -104,6 +116,7 @@ class App extends Component{
       <Search 
         handleInputChange={this.handleInputChange} 
         handleFormSubmit={this.handleFormSubmit}
+        searchName={this.state.searchName}
       />
 
       {/* Crew Table */}
@@ -120,8 +133,33 @@ class App extends Component{
           </tr>
         </thead>
         <tbody>
-          {this.state.officers.map(RenderCrew)}
-          {/* map through the filtered list instead of all officers */}
+          {/* {this.state.officers.map(RenderCrew)} */}
+          {this.state.officers.map(curroff=>(
+            <RenderCrew
+            image={curroff.image}
+            key={curroff.id}
+            rank = {curroff.rank}
+            name = {curroff.name}
+            species = {curroff.species}
+            gender = {curroff.gender}
+            occupation = {curroff.occupation}
+            details = {curroff.details}
+            />
+          ))}
+          {/* map through the filtered list instead of all officers 
+          
+          {this.state.friends.map(friend => (
+          <FriendCard
+            removeFriend={this.removeFriend}
+            id={friend.id}
+            key={friend.id}
+            name={friend.name}
+            image={friend.image}
+            occupation={friend.occupation}
+            location={friend.location}
+          />
+        ))}
+          */}
         </tbody>
       </ReactBootstrap.Table>
     </Wrapper>
